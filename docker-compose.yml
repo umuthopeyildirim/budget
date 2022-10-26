@@ -9,5 +9,7 @@ services:
     ports:
       - "3000:3000"
     environment:
+      NODE_ENV: development
       RAILS_ENV: production
       DATABASE_URL: postgres://budget:budget1234@172.18.0.3/budget
+      SECRET_KEY_BASE: sPoNgeB0bRePlACEmE
