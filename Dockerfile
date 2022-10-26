@@ -1,6 +1,6 @@
 FROM ruby:2.7.2-alpine
 
-WORKDIR /ontrack
+WORKDIR /budget
 
 COPY . .
 
