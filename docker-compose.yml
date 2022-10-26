@@ -9,6 +9,5 @@ services:
     ports:
       - "3000:3000"
     environment:
-      NODE_ENV: production
-      RAILS_ENV: development
+      RAILS_ENV: production
       DATABASE_URL: postgres://budget:budget1234@172.18.0.3/budget
