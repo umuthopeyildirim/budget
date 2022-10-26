@@ -1,0 +1,7 @@
+{
+  "name": "budget",
+  "description": "A simple self-hosted budgeting app",
+  "repository": "https://github.com/umuthopeyildirim/youtrack",
+  "logo": "https://raw.githubusercontent.com/inoda/ontrack/master/app/assets/images/readme/logo-square.png",
+  "keywords": ["youtrack", "budgeting"]
+}
