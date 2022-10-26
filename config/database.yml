@@ -82,4 +82,4 @@ production:
   <<: *default
   database: budget
   username: budget
-  password: <%= ENV['BUDGET_DATABASE_PASSWORD'] %>
+  password: budget1234
