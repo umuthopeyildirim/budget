@@ -2,10 +2,9 @@ version: "3.4"
 
 services:
   app:
-    build:
-      context: .
+    build: https://github.com/umuthopeyildirim/budget.git#main
     container_name: budget
-    restart: always
+    restart: unless-stopped
     ports:
       - "3000:3000"
     environment:
