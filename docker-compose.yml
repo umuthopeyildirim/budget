@@ -1,7 +1,7 @@
 version: "3.4"
 
 services:
-  app:
+  budget:
     build:
       context: .
     container_name: budget
