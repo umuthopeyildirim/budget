@@ -1,5 +1,4 @@
 ![logo](./app/assets/images/readme/logo.png)
-
 ## About
 
 In a nutshell: a private budgeting tool that can be self-hosted.
@@ -30,14 +29,6 @@ as well as do any tweaking (e.g. changing category or deleting).
 
 ![history](./app/assets/images/readme/history.png)
 
-#### Importing
-Although you can't connect banking info, you can still streamline entering expenses.
-The CSV import lets you flexibly import expenses from bank exports. Save multiple CSV parsing
-configurations for reuse so you can go straight from exporting to importing (see `app/models/csv_config.rb` for details).
-
-
-![import](./app/assets/images/readme/csv_import.png)
-
 #### Fun and mobile friendly
 OnTrack has a light and fun voice that makes it a
 pleasure to use. The entire app is also mobile
@@ -54,18 +45,3 @@ friendly.
 - `bundle exec rails c` to run Rails console
 - `User.create!(username: "...", password: "...")` The username and password will be hashed.
 - If you ever need to change your username/password: `User.first.update!(username: "...", password: "...")`
-
-## Hosting your own
-I'd recommend using [Heroku](https://heroku.com) since it's super simple (and free) to
-deploy a Rails app. Keep it awake with my [Heroku Pinger](https://github.com/inoda/heroku-pinger)!
-Once your instance is deployed, do the "Creating a user" steps
-above after [spinning up Heroku's console](https://devcenter.heroku.com/articles/heroku-dashboard#application-overview).
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/inoda/ontrack/tree/main)
-
-## Usage and feedback
-Feel free to use this however you'd like! If you use this, credit
-would be nice but I don't really care that much. I'm primarily maintaining
-this for my own use cases. But...if you have features you'd like to see built, or changes
-that you think should be made, please open issues on this repo and tag me in them!
-I'd love to improve the tool from your feedback.
